@@ -1,0 +1,52 @@
+/* .slide-ors{
+    width: 100vw;
+    height: 100vw;
+    background: #f00;
+} */
+.img-sl1{
+    background-image: url(../img/1uno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sl-orsImag{
+    height: 90vw;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);    
+    grid-gap: 2px;
+    align-items: center;
+    justify-items: center;
+}
+.slRedes{
+    box-shadow: inset 1px 1px 4px 0px green;
+    height: 50%;
+    /* align-self: center; */
+    /* justify-self: center; */
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.slLogo{
+    box-shadow: inset 1px 1px 4px 0px green;
+    height: 90%;
+    grid-column: 1/1;
+    grid-row: 2/3;    
+}
+.imgIcon{
+    box-shadow: inset 1px 1px 4px 0px green;
+    height: 90%;
+    grid-column: 1/1;
+    grid-row: 3/5;
+}
+.slNav{
+    box-shadow: inset 1px 1px 4px 0px green;
+    height: 50%;
+    grid-column: 1/1;
+    grid-row: 5/6;
+}
+.slFooter{
+    box-shadow: inset 1px 1px 4px 0px green;
+    height: 80%;
+    grid-column: 1/1;
+    grid-row: 6/7;
+}
