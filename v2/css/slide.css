@@ -9,7 +9,7 @@
     background-image: url(../img/1uno.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;    
+    background-position: 0 50%;
 }
 .sl-orsImag{
     height: 150vw;
