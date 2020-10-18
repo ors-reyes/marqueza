@@ -18,34 +18,27 @@
     align-items: center;
     justify-items: center;
 }
-.slRedes{
-    box-shadow: inset 1px 1px 4px 0px green;
-    height: 50%;
-    /* align-self: center; */
-    /* justify-self: center; */
+.slRedes{    
+    height: 50%;    
     grid-column: 1/1;
     grid-row: 1/1;
 }
-.slLogo{
-    box-shadow: inset 1px 1px 4px 0px green;
+.slLogo{    
     height: 120%;
     grid-column: 1/1;
     grid-row: 2/3;    
 }
-.imgIcon{
-    box-shadow: inset 1px 1px 4px 0px green;
+.imgIcon{    
     height: 90%;
     grid-column: 1/1;
     grid-row: 3/5;
 }
-.slNav{
-    box-shadow: inset 1px 1px 4px 0px green;
-    height: 50%;
+.slNav{    
+    height: 80%;
     grid-column: 1/1;
     grid-row: 5/6;
 }
-.slFooter{
-    box-shadow: inset 1px 1px 4px 0px green;
+.slFooter{    
     height: 80%;
     grid-column: 1/1;
     grid-row: 6/7;
