@@ -10,7 +10,7 @@
     background-position: center;
 }
 .sl-orsImag{
-    height: 90vw;
+    height: 150vw;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);    
