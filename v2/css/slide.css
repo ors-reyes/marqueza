@@ -28,7 +28,7 @@
 }
 .slLogo{
     box-shadow: inset 1px 1px 4px 0px green;
-    height: 90%;
+    height: 120%;
     grid-column: 1/1;
     grid-row: 2/3;    
 }
