@@ -18,10 +18,11 @@
     height: 500px;
     grid-column: 1/-1;
     grid-row: 1/-1;
-    opacity: 0.5;
-    background: -webkit-radial-gradient(top right, #AA0303, #000000);
-    background: -moz-radial-gradient(top right, #AA0303, #000000);
-    background: radial-gradient(to bottom left, #AA0303, #000000);    
+    opacity: 0.4;
+    background: #FF789A;
+    background: -webkit-radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
+    background: -moz-radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
+    background: radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
 }
 .slLogo{
     grid-column: 1/2;
