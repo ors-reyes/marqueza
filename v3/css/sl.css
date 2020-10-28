@@ -90,20 +90,21 @@
 }
 .manicure{    
     background-image: url(../img/manicure.svg);
+    cursor: pointer;
     z-index: 5;
 }
 .pedicure{
     background-image: url(../img/pedicure.svg);
+    cursor: pointer;
     z-index: 5;
 } 
 .esculpidas{
     background-image: url(../img/esculpidas.svg);
+    cursor: pointer;
     z-index: 5;
 }
 .french{
     background-image: url(../img/french.svg);
-    
-    /* background-color: rgba(255,255,0,.5); */
     cursor: pointer;
     z-index: 5;
 }
