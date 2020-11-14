@@ -94,8 +94,8 @@
     background: linear-gradient(-44deg, rgba(194,135,72,1) 0%, rgba(245,230,163,1) 20%, rgba(212,143,87,1) 50%, rgba(249,224,160,1) 80%, rgba(186,131,74,1) 100%);
     width: 90%;
     height: 40%;
-    box-shadow: inset 0.8px 0.8px 2px 1px rgba(255,255,255,.3),
-                      0.5px 0.5px 3px 1px rgba(0,0,0,.3);
+    box-shadow: inset 1px 1px 2px 1px rgba(255,255,255,.3),
+                      0.8px 0.8px 3px 1px rgba(0,0,0,.3);
     border-radius: 5px;
     justify-self: center;
     align-self: center;
