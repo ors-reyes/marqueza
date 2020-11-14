@@ -1,0 +1,35 @@
+.cabecera{
+    display: flex;    
+}
+.logo, .redes{
+    width: 50%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80%;
+}
+.logo{
+    background-image: url(../img/slLogo.svg);
+}
+.redes{    
+    display: flex;
+    justify-content: center;
+}
+.facebook, .instagram, .whatsapp{
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+}
+.facebook{
+    background-image: url(../img/rfacebook.svg);
+    align-self: center;
+}
+.instagram{
+    background-image: url(../img/rinstagram.svg);
+    align-self: center;
+}
+.whatsapp{
+    background-image: url(../img/rwhatsapp.svg);
+    align-self: center;
+}

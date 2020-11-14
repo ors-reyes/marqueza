@@ -1,1 +1,114 @@
-
+.slI{
+    width: 100%;
+    height: calc(100vh - 150px);    
+    position: absolute;
+    z-index: -1;    
+}
+.slImgMask{
+    width: 100%;
+    height: 100vh;    
+    position: absolute;
+    margin-top: -150px;
+    opacity: 0.4;
+    background: #FF789A;
+    background: -webkit-radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
+    background: -moz-radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
+    background: radial-gradient(circle farthest-corner at top right, #FF789A 0%, #E20202 15%, #000000 100%);
+    z-index: 3;
+}
+.imgSl{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0;
+    margin-top: -150px;    
+    transform: scale(1.2);
+    z-index: 0;
+}
+.imgActual {    
+    animation: imgSl 1.5s ease forwards;
+}
+@keyframes imgSl{
+    0%{
+        transform: scale(2.5);
+        opacity: 0;
+        z-index: 0;
+    }50%{
+        transform: scale(1);
+        opacity: 0.5;
+        z-index: 2;
+    }100%{
+        transform: scale(1.2);
+        opacity: 1;
+        z-index: 2;
+    }
+}
+.slC{
+    width: 100%;
+    height: calc(100vh - 150px);    
+    display: grid;
+    grid:    
+    "icon icon" 1fr
+    "menu menu" 150px /
+    1fr   1fr
+    ;
+}
+.iconC{
+    z-index: 2;
+    grid-area: icon;    
+}
+.svgIcon{
+    width: 80%;
+    margin-left: 10%;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+.slActual {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    transform: scale(1);
+    transition: visibility 1s, opacity 1s;
+    animation: svgSl 1s forwards;
+}
+@keyframes svgSl{
+    0%{
+        transform: scale(0.5);
+        display: none;        
+        opacity:0;
+        z-index: 0;
+    }100%{
+        transform: scale(1);
+        z-index: 2;
+        display: block;        
+        opacity:1;
+    }
+}
+.menu{
+    grid-area: menu;
+    background: linear-gradient(-44deg, rgba(194,135,72,1) 0%, rgba(245,230,163,1) 20%, rgba(212,143,87,1) 50%, rgba(249,224,160,1) 80%, rgba(186,131,74,1) 100%);
+    width: 90%;
+    height: 60%;
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+    display: flex;    
+}
+/* nav */
+.manicure, .pedicure, .esculpidas, .french{
+    width: 25%;height: 60%;justify-self: center;align-self: center;background-size: contain;background-repeat: no-repeat;background-position: center;cursor: pointer;
+}
+.manicure{
+    background-image: url(../img/manicure.svg);    
+}
+.pedicure{
+    background-image: url(../img/pedicure.svg);    
+} 
+.esculpidas{
+    background-image: url(../img/esculpidas.svg);    
+}
+.french{
+    background-image: url(../img/french.svg);    
+}
