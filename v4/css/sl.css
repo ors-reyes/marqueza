@@ -3,7 +3,7 @@
     height: 100vh;
     position: absolute;
     z-index: -1;
-    overflow-x: hidden;
+    overflow: hidden;
     top: 0px;
 }
 .slImgMask{
