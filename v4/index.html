@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon"   href="img/favicon.png" type="image/png" />
+    <title>NewSlide</title>
+    <link rel="stylesheet" href="css/defaul.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/sl.css">
+</head>
+<body>
+    <nav>
+        <div class="cabecera">
+            <div class="logo"></div>
+            <div class="redes">
+                <a class="facebook" href="https://www.facebook.com/" target="_blank"></a>
+                <a class="instagram" href="https://www.instagram.com/?hl=es-la" target="_blank"></a>
+                <a class="whatsapp" href="https://www.whatsapp.com/?lang=es" target="_blank"></a>                
+            </div>
+        </div>
+        <div class="slC">
+            <div class="slI">
+                <div class="slImgMask"></div>
+                <div class="imgC">
+                    <img src="img/img1.jpg" alt="" class="imgSl imgActual">
+                    <img src="img/img2.jpg" alt="" class="imgSl ">
+                    <img src="img/img3.jpg" alt="" class="imgSl ">
+                    <img src="img/img4.jpg" alt="" class="imgSl ">
+                    
+                </div>
+            </div>
+            <div class="iconC">
+                <object class="svgIcon slActual" data="img/icon-manicure.svg" type="image/svg+xml"></object>
+                <object class="svgIcon" data="img/icon-pedicure.svg" type="image/svg+xml"></object>
+                <object class="svgIcon" data="img/icon-esculpidas.svg" type="image/svg+xml"></object>
+                <object class="svgIcon" data="img/icon-french.svg" type="image/svg+xml"></object>
+            </div>            
+            <div class="menu">
+                <div class="manicure" onclick="mostrar(0)"></div>
+                <div class="pedicure" onclick="mostrar(1)"></div>
+                <div class="esculpidas" onclick="mostrar(2)"></div>
+                <div class="french" onclick="mostrar(3)"></div>
+            </div>
+        </div>
+    </nav>
+    <div class="cuerpo"></div>
+<script src="js/sl.js"></script>
+</body>
+</html>
