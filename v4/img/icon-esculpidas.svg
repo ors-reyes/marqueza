@@ -59,6 +59,7 @@
 	.esculpidaUniaColor{fill-rule:evenodd;clip-rule:evenodd;fill:#FFF;opacity:0;
 		animation: esculpidaAniUniaColor 0.5s forwards linear calc(var(--time) + 3.5s);
 	}
+	.esculpidaUniaColor2{opacity:0;}
 	@keyframes esculpidaAniUniaColor{
 		0%{opacity:0;
 		}85%{opacity:0.5;
@@ -100,9 +101,9 @@
 		l-1.3-5C231.6,44.3,259.1,51.3,279.1,131.5z"/>
 </g>
 <g id="unacolor">
-	<path class="esculpidaUniaColor" d="M187.7,162.7c0-8.3,4-18.7,10.8-28.1v62.9l0,0.3c4.9,55.7,81.5,55.7,86.5,0l0-0.3v-60.5
+	<path class="esculpidaUniaColor2" d="M187.7,162.7c0-8.3,4-18.7,10.8-28.1v62.9l0,0.3c4.9,55.7,81.5,55.7,86.5,0l0-0.3v-60.5
 		c5.8,8.8,9.2,18.1,9.2,25.8v117.2c-33.5,17.4-72.9,17.4-106.4,0V162.7z"/>
-	<path class="esculpidaUniaColor" d="M210.6,146.8l4.9,4.3v6.2l-4.9,4.3l-4.9-4.3v-6.2L210.6,146.8z M216,165.6l6.9,6v9.6l-6.9,6l-6.9-6v-9.6
+	<path class="esculpidaUniaColor2" d="M210.6,146.8l4.9,4.3v6.2l-4.9,4.3l-4.9-4.3v-6.2L210.6,146.8z M216,165.6l6.9,6v9.6l-6.9,6l-6.9-6v-9.6
 		L216,165.6z M214.7,190.5l6.4,5.5v8.6l-6.4,5.5l-6.4-5.5V196L214.7,190.5z M231.5,187.4l6.4,5.5v8.6l-6.4,5.5l-6.4-5.5v-8.6
 		L231.5,187.4z M226.3,209l6,5.2v8l-6,5.2l-6-5.2v-8L226.3,209z M247,203.1l9,7.2v12.5l-9,7.2l-4.8-3.9l-4.1-3.3v-12.5L247,203.1z
 		 M272.7,216.8c-17.6,27.6-64.8,21.1-68.4-19.7v-65.6c1.4-5.6,2.9-10.9,4.3-15.8c0.4,1.8,0.8,3.5,1.2,5.3c0.2,0.5,0.3,1,0.5,1.5
